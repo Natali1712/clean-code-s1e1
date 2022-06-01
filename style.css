@@ -37,16 +37,16 @@
 }
 
 ul {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 li, h3 {
-  list-style:none;
+  list-style: none;
 }
 
 input, button{
-  outline:none;
+  outline: none;
 }
 
 button {
@@ -148,16 +148,16 @@ li > input[type="text"] {
 
 /* Edit Task */
 input[type=text] {
-  display:none
+  display: none
 }
 
 .edit-mode input[type=text] {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .edit-mode label {
-  display:none;
+  display: none;
 }
 
 @media (max-width:768px) {
@@ -165,5 +165,5 @@ input[type=text] {
   .logo-container {
     text-align: center;
   }
-  
+
 }
