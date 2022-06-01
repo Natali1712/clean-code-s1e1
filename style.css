@@ -44,6 +44,7 @@ ul {
 li, h3 {
   list-style:none;
 }
+
 input, button{
   outline:none;
 }
@@ -160,7 +161,9 @@ input[type=text] {
 }
 
 @media (max-width:768px) {
+
   .logo-container {
     text-align: center;
   }
+  
 }
