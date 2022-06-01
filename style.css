@@ -47,7 +47,7 @@ h3 {
 }
 
 input,
-button{
+button {
   outline: none;
 }
 
@@ -114,7 +114,8 @@ li {
   align-items: center;
 }
 
-li > * {
+.incomplete-tasks__item,
+.completed-tasks__item {
   vertical-align: middle;
 }
 
@@ -150,11 +151,11 @@ li > input[type="text"] {
 }
 
 /* Edit Task */
-input[type=text] {
+.incomplete-tasks__item input[type=text] {
   display: none;
 }
 
-.edit-mode input[type=text] {
+.edit-mode input[type="text"] {
   display: inline-block;
   width: 224px;
 }
